@@ -15,7 +15,7 @@ variables:
   IMAGE_NAME: alverdiyev91/album-backend-api
   CONTAINERAPPS_APP: album-backend-api
   CONTAINERAPPS_ENVIRONMENT: aca-environment
-  RESOURCE_GROUP: rg-containerapps-azure-pipelines
+  RESOURCE_GROUP: azure-pipeline
   TAG: '$(Build.BuildId)'
 
 stages:
